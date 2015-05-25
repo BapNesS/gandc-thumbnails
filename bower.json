@@ -1,0 +1,18 @@
+{
+  "name": "Thumbnails tool",
+  "version": "0.1",
+  "homepage": "https://github.com/BapNesS/gandc-thumbnails",
+  "authors": [
+    "Baptiste Carlier <carlier.baptiste@gmail.com>"
+  ],
+  "description": "Outil pour fabriquer des minitures",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
