@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.secondFont {
+    font-family: "Oxygen";
+}
+
+#goToStepBBtn, #goToStepCBtn, #largePreview, #renderSection {
+    display: none;
+}
+
+#overlayPreviewLarge {
+    width:100%;
+    background-size: contain;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+/* Supercharge */
+
+/***************
+      Range
+***************/
+
+input[type=range] + .thumb {
+    background-color: #2196F3;
+}
+input[type=range] + .thumb .value {
+    color: #2196F3;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    background-color: #2196F3;
+}
+
+input[type=range]::-moz-range-thumb {
+    background: #2196F3;
+}
+
+input[type=range]::-ms-thumb {
+    background: #2196F3;
+}
+
