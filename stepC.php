@@ -61,7 +61,7 @@ if ( isset($_GET["err"]) || !isset($_GET["youtubeId"] ) ) {
       <form id="formStepC" action="stepCtoD.php" method="post" class="col s12">
         <div class="row">
           <div class="col s6">
-            <p class="grey-text">Youtube ID : <?php echo $_GET["youtubeId"]; ?>.</p>
+            <p class="grey-text">ID (YouTube ou fichier) : <?php echo $_GET["youtubeId"]; ?>.</p>
             <input id="youtubeId" name="youtubeId" type="hidden" value="<?php echo $_GET["youtubeId"]; ?>" class="validate">
             <img class="materialboxed fullWidth" src="./youtubePictures/<?php echo $_GET["youtubeId"]; ?>_overlayed.jpg" />
           </div>

@@ -61,7 +61,7 @@ if ( isset($_GET["err"]) || !isset($_GET["youtubeId"] ) ) {
       <form id="formStepB" action="stepBtoC.php" method="post" class="col s12">
         <div class="row">
           <div class="col s6">
-            <p class="grey-text">Youtube ID : <?php echo $_GET["youtubeId"]; ?>.</p>
+            <p class="grey-text">ID (YouTube ou fichier) : <?php echo $_GET["youtubeId"]; ?>.</p>
           </div>
           <div class="col s6">
             <select class="browser-default" id="overlaySelect" name="overlaySelect">

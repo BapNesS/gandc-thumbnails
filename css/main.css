@@ -6,7 +6,7 @@ body {
     font-family: "Oxygen";
 }
 
-#goToStepBBtn, #goToStepCBtn, #largePreview, #renderSection {
+#goToStepBBtn, #goToStepBLoadBtn, #goToStepCBtn, #largePreview, #renderSection {
     display: none;
 }
 
@@ -44,3 +44,9 @@ input[type=range]::-ms-thumb {
     background: #2196F3;
 }
 
+
+
+.file-field input.file-path {
+  margin-left: 175px !important;
+  width: calc(100% - 175px) !important;
+}

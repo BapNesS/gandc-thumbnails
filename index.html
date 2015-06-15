@@ -39,7 +39,7 @@
 <div class="container">
   <div class="section">
     <h3 class="secondFont">Étape n°1/3</h3>
-      <p>Récupération de la miniture en fonction de l'URL de la vidéo.</p>
+      <p>Récupération de la miniture en fonction de l'URL de la vidéo ou d'un fichier (format 1280x720px maximum).</p>
   </div>
   <div class="section">
     
@@ -52,6 +52,24 @@
           </div>
           <div class="input-field col s3">
             <a class="waves-effect waves-light btn-large blue right" href="#previewAnchor" id="previewBtn">Prévisualiser</a>
+          </div>
+        </div>
+      </form>
+    </div>
+   <div class="row">
+      <form enctype="multipart/form-data" id="formLoadStepA" action="stepAtoB.php" method="post" class="col s12">
+        <div class="row">
+          <div class="input-field col s9">
+            <div class="file-field input-field">
+              <input id="filePath" name="filePath" class="file-path validate" type="text"/>
+              <div class="waves-effect waves-light btn-large blue right">
+                <span>Parcourir</span>
+                <input type="file" />
+              </div>
+            </div>
+          </div>
+          <div class="input-field col s3">
+            <a class="waves-effect waves-light btn-large blue right" href="#loadAnchor" id="loadBtn">Charger</a>
           </div>
         </div>
       </form>
@@ -70,6 +88,7 @@
             <h5 class="secondFont">Prévisualisation :</h5>
             <img class="materialboxed fullWidth" id="initialThumbnailPreview" />
             <a class="waves-effect waves-light btn-large blue right" id="goToStepBBtn">Valider</a>            
+            <a class="waves-effect waves-light btn-large blue right" id="goToStepBLoadBtn">Valider</a>            
         </div>
     </div>
   </div>
